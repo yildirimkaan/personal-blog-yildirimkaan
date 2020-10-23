@@ -1,0 +1,31 @@
+<div id="sidebar">
+    
+    <h1 style="font-size: 21px;">Kaan Fırat</h1>
+    <p>An information systems student with an interest in design, web & mobile technologies, and psychology.</p>
+  
+    {% include instapipe.html %}
+  
+    <p><a href="/about">More about me</a></p>
+  
+    <!-- Social links -->
+    <ul class="social-media-list" style="margin-top: 20px; margin-bottom: 30px;">
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      
+    </ul>
+  
+    <hr />
+
+    <a href="https://kaanf.github.io/minimal-landing-page/" target="_blank">
+        📱 Friendpie.me
+      </a>
+
+      <hr />
+
+      {% include newsletter.html %}
+
+  </div>
